@@ -4,7 +4,7 @@
   "description": "Recipe app",
   "scripts": {
     "start": "parcel index.html",
-    "build": "pargitcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Joel Parra",
   "license": "ISC",
