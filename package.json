@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "pargitcel build index.html --dist-dir ./dist"
+  },
+  "author": "Joel Parra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "7.18.6",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
